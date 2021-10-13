@@ -1,0 +1,8 @@
+docs_dir: docs/
+site_name: Rustunite Wiki
+site_url: 'https://rustunite.com/'
+repo_url: 'https://github.com/rustunite/wiki'
+repo_name: 'rustunite/wiki'
+copyright: 'Copyright © 2021 Newgent Digital. All rights reserved.'
+nav:
+    - 'Home': 'index.md'
