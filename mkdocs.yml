@@ -3,6 +3,35 @@ site_name: Rustunite Wiki
 site_url: 'https://rustunite.com/'
 repo_url: 'https://github.com/rustunite/wiki'
 repo_name: 'rustunite/wiki'
+site_author: 'Rustunite'
 copyright: 'Copyright © 2021 Newgent Digital. All rights reserved.'
 nav:
-    - 'Home': 'index.md'
+  - 'Home': 'index.md'
+theme:
+  name: 'material'
+  language: en
+  font:
+    text: Inter
+    code: IBM Plex Mono
+  palette:
+    primary: red
+    accent: deep orange
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+plugins:
+  - search
+  
